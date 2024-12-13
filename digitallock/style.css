@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock-container{
+    color:yellow;
+    width:700px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+}
+.date{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 600;
+}
+.time{
+    display: flex;
+    justify-content: space-around;
+    gap:80px;
+    
+    /* border:2px solid black; */
+    padding:20px;
+    margin: 40px;
+    
+}
+.timer{
+    /* background-color: whitesmoke; */
+    width: 70px;
+    /* border: 1px solid black; */
+    font-size: 40px;
+    border-radius: 10px;
+    color: red;
+    font-weight: 800;
+}
